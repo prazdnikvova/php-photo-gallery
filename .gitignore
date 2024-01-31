@@ -1,0 +1,17 @@
+# Third-party libraries are not committed: add jQuery, lightGallery and jQuery UI CSS by hand
+templates/js/jquery-*.js
+templates/js/lightGallery.js
+templates/js/lightGallery-master.zip
+css/lightGallery.css
+css/jquery-ui*.css
+fonts/
+
+# Uploaded images and thumbnails
+img/*
+!img/th/
+img/th/*
+!img/th/index.html
+
+# Database dumps
+*.sql
+!schema.sql
